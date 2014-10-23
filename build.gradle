@@ -1,0 +1,18 @@
+
+apply plugin: 'java'
+
+repositories {
+    jcenter()
+}
+
+dependencies {
+
+    compile 'com.sun.jersey:jersey-client:1.18.1'
+    compile 'com.sun.jersey:jersey-core:1.18.1'
+    compile 'org.apache.commons:commons-lang3:3.3.2'
+    compile 'com.google.maps:google-maps-services:0.1.3'
+
+}
+
+
+
